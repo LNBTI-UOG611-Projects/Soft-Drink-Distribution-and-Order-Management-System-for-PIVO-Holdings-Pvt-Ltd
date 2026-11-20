@@ -1,0 +1,6 @@
+# React web application
+/frontend/web/node_modules/
+/frontend/web/dist/
+/frontend/web/.env
+/frontend/web/.env.*
+!/frontend/web/.env.example

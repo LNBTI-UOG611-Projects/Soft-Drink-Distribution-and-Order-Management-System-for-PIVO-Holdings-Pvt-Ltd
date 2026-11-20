@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-pivo-red: #C3004A;
+  --color-pivo-dark: #98003A;
+  --color-pivo-light: #E84B82;
+  --color-pivo-green: #43C800;
+  --color-pivo-green-dark: #2F9400;
+  --color-pivo-background: #F8F9FA;
+  --color-pivo-text: #1F2937;
+  --color-pivo-muted: #6B7280;
+  --color-pivo-border: #E5E7EB;
+}
+
+:root { font-family: var(--font-sans); scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; color: var(--color-pivo-text); background: var(--color-pivo-background); }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 3px solid var(--color-pivo-green); outline-offset: 4px; }
+
+/* Small decorative effects; layout, colors, spacing and responsiveness use Tailwind. */
+.hero-ambient { background: radial-gradient(circle at 70% 38%, rgba(67,200,0,.13) 0%, rgba(255,255,255,0) 48%), radial-gradient(circle at 12% 50%, rgba(195,0,74,.07) 0%, rgba(255,255,255,0) 50%); }
+.hero-stage { background: radial-gradient(circle at 51% 44%, #f9f0df 0%, #fff8f2 54%, #ffedf2 100%); }
+.hero-product { filter: drop-shadow(0 24px 18px rgba(86,34,42,.2)); transition: transform .4s ease; }
+.hero-product:hover { transform: translateY(-12px) rotate(0deg); }
+.gradient-cta { background: linear-gradient(112deg, #98003A 0%, #C3004A 66%, #db225d 100%); }
+.soft-pattern { background-image: radial-gradient(rgba(255,255,255,.16) 1px, transparent 1px); background-size: 16px 16px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms!important; transition-duration: 0.01ms!important; scroll-behavior: auto!important; } }

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="500" viewBox="0 0 380 500" role="img" aria-labelledby="t">
+<title id="t">Illustration of PIVO Aloe Vera Nectar bottle</title>
+<defs>
+<linearGradient id="juice" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#448E39"/><stop offset=".22" stop-color="#6BBF54"/><stop offset=".58" stop-color="#B4E792"/><stop offset="1" stop-color="#448E39"/></linearGradient>
+<linearGradient id="shine" x1="0" x2="1"><stop stop-color="#fff" stop-opacity=".63"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="label" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffef9"/><stop offset="1" stop-color="#f9f1e9"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="13" stdDeviation="14" flood-color="#45291c" flood-opacity=".17"/></filter>
+</defs>
+<ellipse cx="190" cy="473" rx="105" ry="14" fill="#392c28" opacity=".09"/>
+<g filter="url(#sh)">
+<rect x="148" y="26" width="84" height="51" rx="12" fill="#448E39"/>
+<path d="M150 34h80 M150 44h80 M150 54h80 M150 64h80" stroke="#fff" stroke-opacity=".2" stroke-width="3"/>
+<path d="M155 72 H225 V112 Q225 124 250 133 Q289 149 292 184 V424 Q292 455 260 458 H120 Q88 455 88 424 V184 Q91 149 130 133 Q155 124 155 112Z" fill="url(#juice)" stroke="#448E39" stroke-opacity=".26" stroke-width="2"/>
+<path d="M124 159 Q112 183 112 218 V412 Q112 435 128 439" stroke="url(#shine)" stroke-width="16" stroke-linecap="round" fill="none" opacity=".75"/>
+<path d="M259 159 Q270 184 269 230V422" stroke="#2b1d16" stroke-opacity=".09" stroke-width="14" stroke-linecap="round" fill="none"/>
+<rect x="95" y="235" width="190" height="149" rx="15" fill="url(#label)"/>
+<path d="M95 250 Q190 230 285 250 V266 H95Z" fill="#D2F5C0" opacity=".53"/>
+<ellipse cx="190" cy="296" rx="80" ry="37" fill="#43C800"/>
+<ellipse cx="190" cy="291" rx="77" ry="35" fill="#C3004A"/>
+<text x="190" y="307" font-family="Georgia, serif" font-size="51" font-weight="bold" fill="white" text-anchor="middle" font-style="italic">PiVO</text>
+<text x="190" y="343" font-family="Arial,sans-serif" font-size="14" font-weight="bold" letter-spacing="1.6" text-anchor="middle" fill="#873d2c">ALOE VERA</text>
+<path d="M142 358 H238" stroke="#d9c5b2" stroke-width="1.3"/>
+<text x="190" y="375" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.7" text-anchor="middle" fill="#a28b7e">FRUIT DRINK</text>
+<path d="M104 415 Q190 431 275 415" fill="none" stroke="#fff" stroke-opacity=".13" stroke-width="8"/>
+</g></svg>
